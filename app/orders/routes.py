@@ -100,7 +100,7 @@ def get_order_details(
     for item in items:
         product = db.query(Product).filter(Product.id == item.product_id).first()
         if not product:
-            continue  # or handle the missing product case as needed
+            continue  # skip to next item if product not found
         order_details.items.append(OrderItemResponse(
             product_id=item.product_id,
             name=product.name,

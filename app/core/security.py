@@ -1,5 +1,4 @@
 import secrets
-from datetime import datetime, timedelta
 from fastapi import HTTPException, status, Depends
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from sqlalchemy.orm import Session
