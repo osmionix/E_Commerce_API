@@ -11,7 +11,7 @@ class OrderItemResponse(BaseModel):
     image_url: str
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class OrderResponse(BaseModel):
     id: int
@@ -21,7 +21,7 @@ class OrderResponse(BaseModel):
     items: List[OrderItemResponse]
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class OrderHistoryResponse(BaseModel):
     id: int
@@ -30,4 +30,4 @@ class OrderHistoryResponse(BaseModel):
     created_at: datetime
 
     class Config:
-        orm_mode = True
+        from_attributes = True
