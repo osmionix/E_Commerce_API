@@ -2,18 +2,6 @@
 
 A complete e-commerce backend system built with FastAPI featuring session-based authentication, role-based access control, and full product/cart/order management.
 
-## Table of Contents
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [API Documentation](#api-documentation)
-- [Database Schema](#database-schema)
-- [Authentication Flow](#authentication-flow)
-- [Environment Variables](#environment-variables)
-- [Running Tests](#running-tests)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -52,9 +40,3 @@ A complete e-commerce backend system built with FastAPI featuring session-based 
 - **Bcrypt** - Password hashing
 - **Session tokens** - Database-backed authentication
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/ecommerce-fastapi.git
-cd ecommerce-fastapi
